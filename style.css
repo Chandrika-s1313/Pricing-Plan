@@ -1,0 +1,51 @@
+body {
+    font-family: "Sono", sans-serif;
+  }
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    gap:2rem;
+}
+.plan{
+    flex:1;
+    max-width:300px;
+    padding: 20px;
+    background-color: rgb(189, 235, 236);
+    border-radius: 5px;
+    text-align: center;
+}
+.login{
+    padding:10px;
+    background-color:lightgreen;
+    border-radius:5px;
+    border:none;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.price{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.features{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.features li{
+    margin-bottom: 20px;
+}
+
+@media (max-width:1250px) {
+    .container{
+        flex-direction: column;
+        height: 100%;
+    }
+    
+}
